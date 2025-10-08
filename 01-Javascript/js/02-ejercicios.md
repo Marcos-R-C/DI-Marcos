@@ -10,7 +10,7 @@
     console.log(nombres.toString())
     nombres.push("Pepito")
     console.log(nombres.toString())
-    nombres.splice(0,1)
+    nombres.shift()
     console.log(nombres.toString())
     if(nombres.includes("Marcos")){
         console.log("Marcos está en el array")
